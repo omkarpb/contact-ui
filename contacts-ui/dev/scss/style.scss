@@ -1,0 +1,83 @@
+$primary: #030099;
+
+h2 {
+	color: $primary;
+	font-family: 'Ruslan Display', cursive;
+	font-size: 40px;
+}
+
+.app {
+	margin: auto;
+	width: 40%;
+	border: 2px solid rgb(123, 211, 252);
+	border-radius: 10px;
+	background-color: rgb(185, 226, 245);
+	padding: 20px;
+	font-family: 'Noto Serif JP', sans-serif;
+}
+
+.formButton {
+	border-top: 1px solid #96d1f8;
+	padding: 5px 10px;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	text-decoration: none;
+	vertical-align: middle;
+	background: #65a9d7;
+	font-size: 16px;
+	font-family: 'Noto Serif JP', sans-serif;
+	margin: 10px;
+}
+
+button:hover {
+	border-top-color: #28597a;
+	background: #28597a;
+	color: #ccc;
+	}
+ button:active {
+	border-top-color: #1b435e;
+	background: #1b435e;
+	}
+
+.control {
+	padding: 5px;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+input {
+	border: 2px solid rgb(181, 213, 243); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	width: 200px;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.listItem {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 1px solid rgb(52, 81, 245)
+}
+
+.itemButton {
+	margin: 2px;
+	background: #65a9d7;
+	font-family: 'Noto Serif JP', sans-serif;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+}
